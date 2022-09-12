@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/Ak_Bot_SupportGroup')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/filmyfunda_movies')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,13 +44,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🤖 Creators', url='https://t.me/Ak_Bot_SupportGroup'),
+            InlineKeyboardButton('🤖 owner', url='https://t.me/jack_sparow119'),
             InlineKeyboardButton('😊 About', callback_data='about')
             ],[
-            InlineKeyboardButton('😎 YOUTUBE', url='https://youtube.com/c/MADpsychoYT'),
+            InlineKeyboardButton('😎 main channel', url='https://t.me/filmyfunda_movies'),
             InlineKeyboardButton('ℹ️ Help', callback_data='help')
             ],[
-            InlineKeyboardButton('❤️ 𝓢𝓸𝓾𝓻𝓬𝓮', url='https://github.com/Akbotmakersnew/LUCIFER')
+            InlineKeyboardButton('❤️ 𝓢𝓸𝓾𝓻𝓬𝓮', url='https://t.me/jack_sparow119')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -89,13 +89,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/CC_autobot?startgroup=true')
             ],[
-            InlineKeyboardButton('🤖 Creators', url='https://t.me/Ak_Bot_SupportGroup'),
+            InlineKeyboardButton('🤖 owner', url='https://t.me/jack_sparow119'),
             InlineKeyboardButton('😊 About', callback_data='about')
             ],[
-            InlineKeyboardButton('😎 YOUTUBE', url='https://youtube.com/c/MADpsychoYT'),
+            InlineKeyboardButton('😎 main channel', url='https://t.me/filmyfunda_movies'),
             InlineKeyboardButton('ℹ️ Help', callback_data='help')
             ],[
-            InlineKeyboardButton('❤️ 𝓢𝓸𝓾𝓻𝓬𝓮', url='https://github.com/Akbotmakersnew/LUCIFER')
+            InlineKeyboardButton('❤️ 𝓢𝓸𝓾𝓻𝓬𝓮', url='https://t.me/jack_sparow119')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
